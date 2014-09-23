@@ -11,7 +11,7 @@ public class OperacionesCirculo {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.print("\nIntroduce el radio del circulo (en metros): ");
-		radio = sc.nextInt();
+		radio = sc.nextDouble();
 
 		resultado = operaciones.area(radio);
 		System.out.println("\nEl area del circulo es: " + resultado + "m²");
